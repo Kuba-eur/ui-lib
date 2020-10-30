@@ -1,6 +1,6 @@
 import { version } from '../package.json'
 
-import Component from './components/Component.js'
+import Component from './components/Avatar.js'
 
 export {
   version,
