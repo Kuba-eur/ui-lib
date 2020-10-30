@@ -13,7 +13,6 @@
         <q-toolbar-title>
           quasar-ui-{{name}} v\{{ version }}
         </q-toolbar-title>
-        <e-badge/>
         <div>Quasar v\{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
