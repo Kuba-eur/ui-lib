@@ -1,15 +1,13 @@
 {
   "name": "quasar-ui-jk",
-  "version": "0.0.1",
+  "version": "1.0.0-beta",
   "author": "Jacob Kajko",
   "description": "ui lib based on quasar",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Kuba-eur"
-  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "module": "dist/index.esm.js",
   "main": "dist/index.common.js",
-  "scripts": {
+    "scripts": {
     "dev": "cd dev && yarn dev && cd ..",
     "dev:umd": "yarn build && node build/script.open-umd.js",
     "dev:ssr": "cd dev && yarn 'dev:ssr' && cd ..",
